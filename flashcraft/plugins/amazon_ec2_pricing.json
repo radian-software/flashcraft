@@ -1,0 +1,1092 @@
+{
+  "m6a.24xlarge": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "4.8384"
+  },
+  "c5.metal": {
+    "cpu": 96,
+    "memory": 192,
+    "price": "5.088"
+  },
+  "c6a.8xlarge": {
+    "cpu": 32,
+    "memory": 64,
+    "price": "1.5264"
+  },
+  "m5a.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.404"
+  },
+  "c6i.32xlarge": {
+    "cpu": 128,
+    "memory": 256,
+    "price": "6.784"
+  },
+  "r5n.12xlarge": {
+    "cpu": 48,
+    "memory": 384,
+    "price": "4.056"
+  },
+  "c5.9xlarge": {
+    "cpu": 36,
+    "memory": 72,
+    "price": "1.908"
+  },
+  "r5.metal": {
+    "cpu": 96,
+    "memory": 768,
+    "price": "6.72"
+  },
+  "m5.24xlarge": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "5.376"
+  },
+  "r5n.xlarge": {
+    "cpu": 4,
+    "memory": 32,
+    "price": "0.338"
+  },
+  "r6a.12xlarge": {
+    "cpu": 48,
+    "memory": 384,
+    "price": "3.024"
+  },
+  "m6i.32xlarge": {
+    "cpu": 128,
+    "memory": 512,
+    "price": "7.168"
+  },
+  "m5zn.3xlarge": {
+    "cpu": 12,
+    "memory": 48,
+    "price": "1.1562"
+  },
+  "m5.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "0.896"
+  },
+  "m7i.metal-24xl": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "5.6448"
+  },
+  "c5.large": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.106"
+  },
+  "c6a.4xlarge": {
+    "cpu": 16,
+    "memory": 32,
+    "price": "0.7632"
+  },
+  "c5n.large": {
+    "cpu": 2,
+    "memory": 5.25,
+    "price": "0.135"
+  },
+  "t3a.nano": {
+    "cpu": 2,
+    "memory": 0.5,
+    "price": "0.0056"
+  },
+  "c5.24xlarge": {
+    "cpu": 96,
+    "memory": 192,
+    "price": "5.088"
+  },
+  "m6in.12xlarge": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "3.89856"
+  },
+  "c5.12xlarge": {
+    "cpu": 48,
+    "memory": 96,
+    "price": "2.544"
+  },
+  "m6in.8xlarge": {
+    "cpu": 32,
+    "memory": 128,
+    "price": "2.59904"
+  },
+  "t2.micro": {
+    "cpu": 1,
+    "memory": 1,
+    "price": "0.0138"
+  },
+  "m6i.24xlarge": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "5.376"
+  },
+  "m5.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.448"
+  },
+  "inf1.xlarge": {
+    "cpu": 4,
+    "memory": 8,
+    "price": "0.274"
+  },
+  "m7i.metal-48xl": {
+    "cpu": 192,
+    "memory": 768,
+    "price": "11.2896"
+  },
+  "c5.18xlarge": {
+    "cpu": 72,
+    "memory": 144,
+    "price": "3.816"
+  },
+  "m5.12xlarge": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "2.688"
+  },
+  "r5n.24xlarge": {
+    "cpu": 96,
+    "memory": 768,
+    "price": "8.112"
+  },
+  "m7i.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.1176"
+  },
+  "m7i.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.2352"
+  },
+  "r5a.8xlarge": {
+    "cpu": 32,
+    "memory": 256,
+    "price": "2.016"
+  },
+  "r6i.large": {
+    "cpu": 2,
+    "memory": 16,
+    "price": "0.14"
+  },
+  "r6a.16xlarge": {
+    "cpu": 64,
+    "memory": 512,
+    "price": "4.032"
+  },
+  "m6a.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "0.8064"
+  },
+  "c6i.24xlarge": {
+    "cpu": 96,
+    "memory": 192,
+    "price": "5.088"
+  },
+  "m6i.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.112"
+  },
+  "r6a.4xlarge": {
+    "cpu": 16,
+    "memory": 128,
+    "price": "1.008"
+  },
+  "c4.4xlarge": {
+    "cpu": 16,
+    "memory": 30,
+    "price": "0.997"
+  },
+  "m5zn.metal": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "4.6248"
+  },
+  "m5a.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.202"
+  },
+  "c6i.8xlarge": {
+    "cpu": 32,
+    "memory": 64,
+    "price": "1.696"
+  },
+  "c5.xlarge": {
+    "cpu": 4,
+    "memory": 8,
+    "price": "0.212"
+  },
+  "m5zn.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.7708"
+  },
+  "c6in.xlarge": {
+    "cpu": 4,
+    "memory": 8,
+    "price": "0.2835"
+  },
+  "t2.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.4416"
+  },
+  "r5.12xlarge": {
+    "cpu": 48,
+    "memory": 384,
+    "price": "3.36"
+  },
+  "r4.8xlarge": {
+    "cpu": 32,
+    "memory": 244,
+    "price": "2.3712"
+  },
+  "t2.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.1104"
+  },
+  "c6in.24xlarge": {
+    "cpu": 96,
+    "memory": 192,
+    "price": "6.804"
+  },
+  "m5a.16xlarge": {
+    "cpu": 64,
+    "memory": 256,
+    "price": "3.232"
+  },
+  "c6i.12xlarge": {
+    "cpu": 48,
+    "memory": 96,
+    "price": "2.544"
+  },
+  "r5a.large": {
+    "cpu": 2,
+    "memory": 16,
+    "price": "0.126"
+  },
+  "r6a.8xlarge": {
+    "cpu": 32,
+    "memory": 256,
+    "price": "2.016"
+  },
+  "c6a.48xlarge": {
+    "cpu": 192,
+    "memory": 384,
+    "price": "9.1584"
+  },
+  "m6i.16xlarge": {
+    "cpu": 64,
+    "memory": 256,
+    "price": "3.584"
+  },
+  "inf1.24xlarge": {
+    "cpu": 96,
+    "memory": 192,
+    "price": "5.671"
+  },
+  "r5a.24xlarge": {
+    "cpu": 96,
+    "memory": 768,
+    "price": "6.048"
+  },
+  "m7i-flex.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.22344"
+  },
+  "g3.16xlarge": {
+    "cpu": 64,
+    "memory": 488,
+    "price": "6.136"
+  },
+  "m6in.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.32488"
+  },
+  "c5n.4xlarge": {
+    "cpu": 16,
+    "memory": 42,
+    "price": "1.08"
+  },
+  "c4.xlarge": {
+    "cpu": 4,
+    "memory": 7.5,
+    "price": "0.249"
+  },
+  "c5n.18xlarge": {
+    "cpu": 72,
+    "memory": 192,
+    "price": "4.86"
+  },
+  "r6a.large": {
+    "cpu": 2,
+    "memory": 16,
+    "price": "0.126"
+  },
+  "m6a.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.2016"
+  },
+  "m4.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.117"
+  },
+  "t3.medium": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.0496"
+  },
+  "m7i.24xlarge": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "5.6448"
+  },
+  "c6i.2xlarge": {
+    "cpu": 8,
+    "memory": 16,
+    "price": "0.424"
+  },
+  "m5a.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.101"
+  },
+  "r5n.large": {
+    "cpu": 2,
+    "memory": 16,
+    "price": "0.169"
+  },
+  "m5.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.112"
+  },
+  "c5.4xlarge": {
+    "cpu": 16,
+    "memory": 32,
+    "price": "0.848"
+  },
+  "m5.16xlarge": {
+    "cpu": 64,
+    "memory": 256,
+    "price": "3.584"
+  },
+  "m6a.8xlarge": {
+    "cpu": 32,
+    "memory": 128,
+    "price": "1.6128"
+  },
+  "c6a.32xlarge": {
+    "cpu": 128,
+    "memory": 256,
+    "price": "6.1056"
+  },
+  "r5n.2xlarge": {
+    "cpu": 8,
+    "memory": 64,
+    "price": "0.676"
+  },
+  "c4.large": {
+    "cpu": 2,
+    "memory": 3.75,
+    "price": "0.124"
+  },
+  "m4.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "0.936"
+  },
+  "m6i.8xlarge": {
+    "cpu": 32,
+    "memory": 128,
+    "price": "1.792"
+  },
+  "r5.2xlarge": {
+    "cpu": 8,
+    "memory": 64,
+    "price": "0.56"
+  },
+  "m6in.32xlarge": {
+    "cpu": 128,
+    "memory": 512,
+    "price": "10.39616"
+  },
+  "c5n.9xlarge": {
+    "cpu": 36,
+    "memory": 96,
+    "price": "2.43"
+  },
+  "m5a.12xlarge": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "2.424"
+  },
+  "c6in.2xlarge": {
+    "cpu": 8,
+    "memory": 16,
+    "price": "0.567"
+  },
+  "m6i.metal": {
+    "cpu": 128,
+    "memory": 512,
+    "price": "7.168"
+  },
+  "m6a.48xlarge": {
+    "cpu": 192,
+    "memory": 768,
+    "price": "9.6768"
+  },
+  "m4.10xlarge": {
+    "cpu": 40,
+    "memory": 160,
+    "price": "2.34"
+  },
+  "r6a.xlarge": {
+    "cpu": 4,
+    "memory": 32,
+    "price": "0.252"
+  },
+  "c6i.4xlarge": {
+    "cpu": 16,
+    "memory": 32,
+    "price": "0.848"
+  },
+  "m4.16xlarge": {
+    "cpu": 64,
+    "memory": 256,
+    "price": "3.744"
+  },
+  "c6a.2xlarge": {
+    "cpu": 8,
+    "memory": 16,
+    "price": "0.3816"
+  },
+  "r5n.16xlarge": {
+    "cpu": 64,
+    "memory": 512,
+    "price": "5.408"
+  },
+  "c6in.8xlarge": {
+    "cpu": 32,
+    "memory": 64,
+    "price": "2.268"
+  },
+  "c6i.16xlarge": {
+    "cpu": 64,
+    "memory": 128,
+    "price": "3.392"
+  },
+  "r5a.16xlarge": {
+    "cpu": 64,
+    "memory": 512,
+    "price": "4.032"
+  },
+  "m6in.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "1.29952"
+  },
+  "c5n.2xlarge": {
+    "cpu": 8,
+    "memory": 21,
+    "price": "0.54"
+  },
+  "r5n.8xlarge": {
+    "cpu": 32,
+    "memory": 256,
+    "price": "2.704"
+  },
+  "c6i.large": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.106"
+  },
+  "m5.metal": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "5.376"
+  },
+  "m6in.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.16244"
+  },
+  "m7i.12xlarge": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "2.8224"
+  },
+  "m6a.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.1008"
+  },
+  "m7i-flex.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.44688"
+  },
+  "m7i.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.4704"
+  },
+  "m6i.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "0.896"
+  },
+  "r5n.4xlarge": {
+    "cpu": 16,
+    "memory": 128,
+    "price": "1.352"
+  },
+  "r5.24xlarge": {
+    "cpu": 96,
+    "memory": 768,
+    "price": "6.72"
+  },
+  "r5.xlarge": {
+    "cpu": 4,
+    "memory": 32,
+    "price": "0.28"
+  },
+  "r4.large": {
+    "cpu": 2,
+    "memory": 15.25,
+    "price": "0.1482"
+  },
+  "c5n.xlarge": {
+    "cpu": 4,
+    "memory": 10.5,
+    "price": "0.27"
+  },
+  "m5a.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "0.808"
+  },
+  "c5a.2xlarge": {
+    "cpu": 8,
+    "memory": 16,
+    "price": "0.38"
+  },
+  "t2.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.2208"
+  },
+  "c6in.32xlarge": {
+    "cpu": 128,
+    "memory": 256,
+    "price": "9.072"
+  },
+  "r6a.48xlarge": {
+    "cpu": 192,
+    "memory": 1536,
+    "price": "12.096"
+  },
+  "m6i.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.224"
+  },
+  "r6i.2xlarge": {
+    "cpu": 8,
+    "memory": 64,
+    "price": "0.56"
+  },
+  "inf1.2xlarge": {
+    "cpu": 8,
+    "memory": 16,
+    "price": "0.435"
+  },
+  "m6a.32xlarge": {
+    "cpu": 128,
+    "memory": 512,
+    "price": "6.4512"
+  },
+  "m6in.24xlarge": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "7.79712"
+  },
+  "m6i.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.448"
+  },
+  "r5.8xlarge": {
+    "cpu": 32,
+    "memory": 256,
+    "price": "2.24"
+  },
+  "g3.4xlarge": {
+    "cpu": 16,
+    "memory": 122,
+    "price": "1.534"
+  },
+  "r6i.12xlarge": {
+    "cpu": 48,
+    "memory": 384,
+    "price": "3.36"
+  },
+  "m5a.8xlarge": {
+    "cpu": 32,
+    "memory": 128,
+    "price": "1.616"
+  },
+  "m6in.metal": {
+    "cpu": 128,
+    "memory": 512,
+    "price": "10.39616"
+  },
+  "m5zn.6xlarge": {
+    "cpu": 24,
+    "memory": 96,
+    "price": "2.3124"
+  },
+  "r5a.2xlarge": {
+    "cpu": 8,
+    "memory": 64,
+    "price": "0.504"
+  },
+  "t2.small": {
+    "cpu": 1,
+    "memory": 2,
+    "price": "0.0276"
+  },
+  "r6i.metal": {
+    "cpu": 128,
+    "memory": 1024,
+    "price": "8.96"
+  },
+  "m4.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.234"
+  },
+  "r6a.32xlarge": {
+    "cpu": 128,
+    "memory": 1024,
+    "price": "8.064"
+  },
+  "c6in.12xlarge": {
+    "cpu": 48,
+    "memory": 96,
+    "price": "3.402"
+  },
+  "c6i.xlarge": {
+    "cpu": 4,
+    "memory": 8,
+    "price": "0.212"
+  },
+  "c6a.12xlarge": {
+    "cpu": 48,
+    "memory": 96,
+    "price": "2.2896"
+  },
+  "c5.2xlarge": {
+    "cpu": 8,
+    "memory": 16,
+    "price": "0.424"
+  },
+  "c5a.12xlarge": {
+    "cpu": 48,
+    "memory": 96,
+    "price": "2.28"
+  },
+  "m7i.16xlarge": {
+    "cpu": 64,
+    "memory": 256,
+    "price": "3.7632"
+  },
+  "t3a.medium": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.0446"
+  },
+  "r5n.metal": {
+    "cpu": 96,
+    "memory": 768,
+    "price": "8.112"
+  },
+  "r6a.metal": {
+    "cpu": 192,
+    "memory": 1536,
+    "price": "12.096"
+  },
+  "m5.8xlarge": {
+    "cpu": 32,
+    "memory": 128,
+    "price": "1.792"
+  },
+  "r4.16xlarge": {
+    "cpu": 64,
+    "memory": 488,
+    "price": "4.7424"
+  },
+  "r6i.16xlarge": {
+    "cpu": 64,
+    "memory": 512,
+    "price": "4.48"
+  },
+  "c6in.4xlarge": {
+    "cpu": 16,
+    "memory": 32,
+    "price": "1.134"
+  },
+  "m7i.8xlarge": {
+    "cpu": 32,
+    "memory": 128,
+    "price": "1.8816"
+  },
+  "m5.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.224"
+  },
+  "r4.xlarge": {
+    "cpu": 4,
+    "memory": 30.5,
+    "price": "0.2964"
+  },
+  "c6in.metal": {
+    "cpu": 128,
+    "memory": 256,
+    "price": "9.072"
+  },
+  "c6a.metal": {
+    "cpu": 192,
+    "memory": 384,
+    "price": "9.1584"
+  },
+  "r4.2xlarge": {
+    "cpu": 8,
+    "memory": 61,
+    "price": "0.5928"
+  },
+  "m6a.16xlarge": {
+    "cpu": 64,
+    "memory": 256,
+    "price": "3.2256"
+  },
+  "r6i.4xlarge": {
+    "cpu": 16,
+    "memory": 128,
+    "price": "1.12"
+  },
+  "r6i.xlarge": {
+    "cpu": 4,
+    "memory": 32,
+    "price": "0.28"
+  },
+  "c4.8xlarge": {
+    "cpu": 36,
+    "memory": 60,
+    "price": "1.993"
+  },
+  "c6a.16xlarge": {
+    "cpu": 64,
+    "memory": 128,
+    "price": "3.0528"
+  },
+  "c5a.8xlarge": {
+    "cpu": 32,
+    "memory": 64,
+    "price": "1.52"
+  },
+  "c6a.xlarge": {
+    "cpu": 4,
+    "memory": 8,
+    "price": "0.1908"
+  },
+  "r6a.2xlarge": {
+    "cpu": 8,
+    "memory": 64,
+    "price": "0.504"
+  },
+  "t3.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.3968"
+  },
+  "r6i.32xlarge": {
+    "cpu": 128,
+    "memory": 1024,
+    "price": "8.96"
+  },
+  "inf1.6xlarge": {
+    "cpu": 24,
+    "memory": 48,
+    "price": "1.418"
+  },
+  "c6in.16xlarge": {
+    "cpu": 64,
+    "memory": 128,
+    "price": "4.536"
+  },
+  "m5zn.12xlarge": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "4.6248"
+  },
+  "c5a.xlarge": {
+    "cpu": 4,
+    "memory": 8,
+    "price": "0.19"
+  },
+  "r5.16xlarge": {
+    "cpu": 64,
+    "memory": 512,
+    "price": "4.48"
+  },
+  "r5a.4xlarge": {
+    "cpu": 16,
+    "memory": 128,
+    "price": "1.008"
+  },
+  "m6in.16xlarge": {
+    "cpu": 64,
+    "memory": 256,
+    "price": "5.19808"
+  },
+  "t3.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.1984"
+  },
+  "c6a.large": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.0954"
+  },
+  "m6in.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.64976"
+  },
+  "r6i.8xlarge": {
+    "cpu": 32,
+    "memory": 256,
+    "price": "2.24"
+  },
+  "r6i.24xlarge": {
+    "cpu": 96,
+    "memory": 768,
+    "price": "6.72"
+  },
+  "m7i-flex.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.11172"
+  },
+  "r4.4xlarge": {
+    "cpu": 16,
+    "memory": 122,
+    "price": "1.1856"
+  },
+  "c6in.large": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.14175"
+  },
+  "r5a.xlarge": {
+    "cpu": 4,
+    "memory": 32,
+    "price": "0.252"
+  },
+  "t3a.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.3571"
+  },
+  "c5a.24xlarge": {
+    "cpu": 96,
+    "memory": 192,
+    "price": "4.56"
+  },
+  "c5a.4xlarge": {
+    "cpu": 16,
+    "memory": 32,
+    "price": "0.76"
+  },
+  "r5a.12xlarge": {
+    "cpu": 48,
+    "memory": 384,
+    "price": "3.024"
+  },
+  "m5zn.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.1927"
+  },
+  "m7i-flex.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "0.89376"
+  },
+  "m7i.48xlarge": {
+    "cpu": 192,
+    "memory": 768,
+    "price": "11.2896"
+  },
+  "m7i-flex.8xlarge": {
+    "cpu": 32,
+    "memory": 128,
+    "price": "1.78752"
+  },
+  "c4.2xlarge": {
+    "cpu": 8,
+    "memory": 15,
+    "price": "0.498"
+  },
+  "r6a.24xlarge": {
+    "cpu": 96,
+    "memory": 768,
+    "price": "6.048"
+  },
+  "m5a.24xlarge": {
+    "cpu": 96,
+    "memory": 384,
+    "price": "4.848"
+  },
+  "m6a.12xlarge": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "2.4192"
+  },
+  "m6i.12xlarge": {
+    "cpu": 48,
+    "memory": 192,
+    "price": "2.688"
+  },
+  "m6a.metal": {
+    "cpu": 192,
+    "memory": 768,
+    "price": "9.6768"
+  },
+  "g3.8xlarge": {
+    "cpu": 32,
+    "memory": 244,
+    "price": "3.068"
+  },
+  "r5.4xlarge": {
+    "cpu": 16,
+    "memory": 128,
+    "price": "1.12"
+  },
+  "m5zn.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.3854"
+  },
+  "c5a.16xlarge": {
+    "cpu": 64,
+    "memory": 128,
+    "price": "3.04"
+  },
+  "r5.large": {
+    "cpu": 2,
+    "memory": 16,
+    "price": "0.14"
+  },
+  "c6a.24xlarge": {
+    "cpu": 96,
+    "memory": 192,
+    "price": "4.5792"
+  },
+  "m4.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.468"
+  },
+  "c5n.metal": {
+    "cpu": 72,
+    "memory": 192,
+    "price": "4.86"
+  },
+  "m6a.2xlarge": {
+    "cpu": 8,
+    "memory": 32,
+    "price": "0.4032"
+  },
+  "c6i.metal": {
+    "cpu": 128,
+    "memory": 256,
+    "price": "6.784"
+  },
+  "m7i.4xlarge": {
+    "cpu": 16,
+    "memory": 64,
+    "price": "0.9408"
+  },
+  "c5a.large": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.095"
+  },
+  "t3a.small": {
+    "cpu": 2,
+    "memory": 2,
+    "price": "0.0223"
+  },
+  "t3.small": {
+    "cpu": 2,
+    "memory": 2,
+    "price": "0.0248"
+  },
+  "t3a.xlarge": {
+    "cpu": 4,
+    "memory": 16,
+    "price": "0.1786"
+  },
+  "t3.nano": {
+    "cpu": 2,
+    "memory": 0.5,
+    "price": "0.0062"
+  },
+  "t3a.micro": {
+    "cpu": 2,
+    "memory": 1,
+    "price": "0.0112"
+  },
+  "t3.micro": {
+    "cpu": 2,
+    "memory": 1,
+    "price": "0.0124"
+  },
+  "t3.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.0992"
+  },
+  "t3a.large": {
+    "cpu": 2,
+    "memory": 8,
+    "price": "0.0893"
+  },
+  "t2.medium": {
+    "cpu": 2,
+    "memory": 4,
+    "price": "0.0552"
+  },
+  "t2.nano": {
+    "cpu": 1,
+    "memory": 0.5,
+    "price": "0.0069"
+  }
+}
