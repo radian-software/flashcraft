@@ -20,5 +20,5 @@ COPY flashcraft/ /home/flashcraft/src/flashcraft/
 FROM code AS adminpanel
 
 ENTRYPOINT ["tini", "--"]
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "--access-logfile=-", "-R", "flashcraft.adminpanel.app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "--access-logfile=-", "-R", "flashcraft.adminpanel:app"]
 EXPOSE 8080
