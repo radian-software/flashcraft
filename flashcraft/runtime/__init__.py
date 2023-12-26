@@ -1,4 +1,5 @@
 from configparser import ConfigParser
+from datetime import datetime
 import json
 import os
 from pathlib import Path
@@ -7,7 +8,6 @@ import signal
 import subprocess
 import sys
 import threading
-import traceback
 from typing_extensions import Never
 
 import bs4
@@ -22,6 +22,7 @@ class Runtime:
         self.config = config
         self.storage = get_storage_plugin(config["storage"])
         self.upload_lock = threading.Lock()
+        self.ignore_files_from_before = datetime.fromtimestamp(0)
 
     @staticmethod
     def _download_minecraft_server(version: str) -> None:
@@ -43,17 +44,21 @@ class Runtime:
         name = self.config["world_name_internal"]
         logging.info(f"Downloading Minecraft world {name}...")
         self.storage.download_prefix(f"worlds/{name}/world", "world")
+        self.ignore_files_from_before = datetime.now()
         logging.info(f"Downloading Minecraft world {name}...done")
 
     def _upload_world(self) -> None:
         name = self.config["world_name_internal"]
         with self.upload_lock:
             logging.info(f"Uploading Minecraft world {name}...")
+            now = datetime.now()
             self.storage.upload_prefix(
                 "world",
                 f"worlds/{self.config['world_name_internal']}/world",
                 delete_missing_from_remote=True,
+                skip_untouched_since=self.ignore_files_from_before,
             )
+            self.ignore_files_from_before = now
             logging.info(f"Uploading Minecraft world {name}...done")
 
     def _upload_world_in_background(self) -> None:
