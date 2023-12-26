@@ -21,8 +21,13 @@ ARN_REGEX = re.compile(
 USER_DATA = (
     r"""
 
+IFS='' read -r FC_RUNTIME_CONFIG <<"EOF"
+{self.runtime_config}
+EOF
+export FC_RUNTIME_CONFIG
+
 yum install docker -y
-docker run -d --rm --network host {self.docker_image}
+docker run -d --rm --network host -e FC_RUNTIME_CONFIG {self.docker_image}
 
 """.strip()
     + "\n"
