@@ -118,3 +118,23 @@ class ServerPlugin(ABC):
     @abstractmethod
     def get_server_status_by_id(self, server_id: str) -> ServerStatus:
         raise NotImplementedError
+
+
+def get_server_plugin(config: dict) -> ServerPlugin:
+    mod = importlib.import_module(f"flashcraft.plugins.{config['plugin']}")
+    candidates = []
+    for name in dir(mod):
+        obj = getattr(mod, name)
+        if (
+            inspect.isclass(obj)
+            and issubclass(obj, ServerPlugin)
+            and obj != ServerPlugin
+        ):
+            candidates.append(obj)
+    assert len(candidates) == 1, candidates
+    (cls,) = candidates
+    plugin = cast(ServerPlugin, cls())
+    for opt in plugin.get_options():
+        setattr(plugin, opt.internal_name, config["options"][opt.internal_name])
+    plugin.setup()
+    return plugin

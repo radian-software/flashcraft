@@ -159,7 +159,7 @@ class AmazonEC2ServerPlugin(ServerPlugin):
         for instance, info in self.available_instance_types.items():
             if (
                 info["cpu"] * 1000 >= params.minimum_cpu_millicores
-                and info["memory"] >= params.minimum_memory_megabytes * 1000
+                and info["memory"] * 1000 >= params.minimum_memory_megabytes
             ):
                 matching_instances.append(instance)
         return min(
@@ -171,26 +171,29 @@ class AmazonEC2ServerPlugin(ServerPlugin):
         tags = [
             {
                 "Key": "flashcraft",
-                "Value": True,
+                "Value": "true",
             },
             {
                 "Key": "flashcraft_server_id",
                 "Value": server_id,
             },
+            {"Key": "Name", "Value": f"Flashcraft: {server_id}"},
         ]
         kwargs = {
             "ImageId": self.ssm.get_parameter(
                 Name="/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-ebs"
             )["Parameter"]["Value"],
             "InstanceType": self._get_best_instance_type(params),
-            "SubnetId": self.subnet,
             "DisableApiTermination": False,
             "InstanceInitiatedShutdownBehavior": "terminate",
             "UserData": USER_DATA,
             "NetworkInterfaces": [
                 {
+                    "DeviceIndex": 0,
                     "AssociatePublicIpAddress": True,
                     "DeleteOnTermination": True,
+                    "SubnetId": self.subnet,
+                    "Groups": [self.security_group],
                 }
             ],
             "TagSpecifications": [
@@ -221,18 +224,11 @@ class AmazonEC2ServerPlugin(ServerPlugin):
                 "AutoRecovery": "disabled",
             },
             "DisableApiStop": False,
+            "MinCount": 1,
+            "MaxCount": 1,
         }
         if self.ssh_key:
             kwargs["KeyName"] = self.ssh_key
-        sg_info = self.ec2.describe_security_groups(
-            Filters={"Name": "group-id", "Values": [self.security_group]}
-        )["SecurityGroups"][0]
-        if self.ec2.describe_vpcs(
-            Filters={"Name": "vpc-id", "Values": [sg_info["VpcId"]]}
-        )["Vpcs"][0]["IsDefault"]:
-            kwargs["SecurityGroups"] = [sg_info["GroupName"]]
-        else:
-            kwargs["SecurityGroupIds"] = [self.security_group]
         self.ec2.run_instances(**kwargs)
 
     def get_server_status_by_id(self, server_id: str) -> ServerStatus:
